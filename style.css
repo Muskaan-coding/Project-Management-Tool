@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monospace:wght@300;400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: linear-gradient(to right, #FF5733, #FFC300, #FF5733, #FFC300);
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+}
+
+.jumbotron {
+    background: rgba(255, 255, 255, 0.7);
+    transform-style: preserve-3d;
+    transition: .3s;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6);
+    max-width: 60rem;
+    width: 100%;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    border-radius: .5rem;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.well {
+    background: rgb(220, 220, 220);
+    max-width: 60rem;
+    width: 100%;
+    margin: 1rem auto;
+    padding: 1.5rem;
+    border-radius: .5rem;
+    border: none;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+#savebtn {
+    font-size: 1.5rem;
+    background: #2ECC71;
+    outline: none;
+    border: none;
+}
+
+#savebtn:hover {
+    background: #27AE60;
+}
+
+#clrbtn {
+    font-size: 1.5rem;
+    background: #E74C3C;
+    outline: none;
+    float: right;
+    border: none;
+}
+
+#clrbtn:hover {
+    background: #C0392B;
+}
+
+/* issue list */
+
+.labid {
+    display: flex;
+    gap: 1rem;
+    font-family: 'Monospace', monospace;
+    border-bottom: 1px solid #777;
+}
+
+.labid span {
+    background: #E74C3C;
+    color: #FFF;
+}
+
+.labid h6 {
+    margin-top: 5px;
+}
+
+.well p .glyphicon-user {
+    margin-left: 1rem;
+    padding: 2rem;
+}
+
+.well #closebtn {
+    background: #4AA44F;
+    outline: none;
+    border: none;
+}
+
+.well #closebtn:hover {
+    background: #3C973D;
+}
+
+.well #delbtn {
+    background: #E74C3C;
+    outline: none;
+    border: none;
+}
+
+.well #delbtn:hover {
+    background: #C0392B;
+}
+
+/* back button */
+
+.backbtn {
+    position: absolute;
+    font-size: 3rem;
+    float: left;
+    cursor: pointer;
+    margin-top: 2rem;
+    margin-left: 13rem;
+    color: #FFF;
+}
+
+.backbtn a {
+    text-decoration: none;
+    color: inherit;
+}
